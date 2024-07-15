@@ -1,0 +1,422 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\EDA_Projects\fft_t\prj\simulation\qsim
+Ebutterfly2
+Z1 w1717228862
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dD:\EDA_Projects\fft_t\prj\simulation\qsim
+Z5 8D:/EDA_Projects/fft_t/prj/../rtl/butterfly2.vhd
+Z6 FD:/EDA_Projects/fft_t/prj/../rtl/butterfly2.vhd
+l0
+L4
+Vd3Ze8<7h=@dzWIbnOFLW^0
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1717411055.682000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/EDA_Projects/fft_t/prj/../rtl/butterfly2.vhd|
+Z10 !s107 D:/EDA_Projects/fft_t/prj/../rtl/butterfly2.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 D@>3V_UhH]0FH:Sd=2mMW0
+!i10b 1
+Abhv
+R2
+R3
+DEx4 work 10 butterfly2 0 22 d3Ze8<7h=@dzWIbnOFLW^0
+l36
+L12
+V7Yl0YBffa6EVUGNl;0NKi1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 Gj;3f0a:^P[]o:e=_DUXg3
+!i10b 1
+Ebutterfly8
+Z13 w1717235144
+Z14 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z15 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R2
+R3
+R4
+Z16 8D:/EDA_Projects/fft_t/prj/../rtl/butterfly8.vhd
+Z17 FD:/EDA_Projects/fft_t/prj/../rtl/butterfly8.vhd
+l0
+L5
+VmG`l=lUo]c8ZGln5O;H4^1
+R7
+31
+Z18 !s108 1717411055.741000
+Z19 !s90 -reportprogress|300|-93|-work|work|D:/EDA_Projects/fft_t/prj/../rtl/butterfly8.vhd|
+Z20 !s107 D:/EDA_Projects/fft_t/prj/../rtl/butterfly8.vhd|
+R11
+R12
+!s100 lGY6Yfn1k:C<De_E>>ZhG3
+!i10b 1
+Afdl
+R14
+R15
+R2
+R3
+DEx4 work 10 butterfly8 0 22 mG`l=lUo]c8ZGln5O;H4^1
+l33
+L17
+VA1ab`7g20j3:?HTL_nDoo1
+R7
+31
+R18
+R19
+R20
+R11
+R12
+!s100 RS0Q6M9cFO<SF;>M9e^]K2
+!i10b 1
+Ecomplex_add
+Z21 w1717146734
+R14
+R15
+R2
+R3
+R4
+Z22 8D:/EDA_Projects/fft_t/prj/../rtl/complex_add.vhd
+Z23 FD:/EDA_Projects/fft_t/prj/../rtl/complex_add.vhd
+l0
+L5
+Vm1LWe<FD3M8hb=eFnm2OT0
+R7
+31
+Z24 !s108 1717411055.806000
+Z25 !s90 -reportprogress|300|-93|-work|work|D:/EDA_Projects/fft_t/prj/../rtl/complex_add.vhd|
+Z26 !s107 D:/EDA_Projects/fft_t/prj/../rtl/complex_add.vhd|
+R11
+R12
+!s100 o<3Q1ebiVSbCkdBeGH]G42
+!i10b 1
+Abhv
+R14
+R15
+R2
+R3
+DEx4 work 11 complex_add 0 22 m1LWe<FD3M8hb=eFnm2OT0
+l11
+L10
+VoG2^QJbn91IjE?:<lI5162
+R7
+31
+R24
+R25
+R26
+R11
+R12
+!s100 M5m:MS5nGGogm8UI[`TXz0
+!i10b 1
+Ecomplex_mult
+Z27 w1717150454
+R14
+R2
+R3
+R4
+Z28 8D:/EDA_Projects/fft_t/prj/../rtl/complex_mult.vhd
+Z29 FD:/EDA_Projects/fft_t/prj/../rtl/complex_mult.vhd
+l0
+L5
+Va9gg6M>hcoj_i@LLPM64i3
+R7
+31
+Z30 !s108 1717411055.868000
+Z31 !s90 -reportprogress|300|-93|-work|work|D:/EDA_Projects/fft_t/prj/../rtl/complex_mult.vhd|
+Z32 !s107 D:/EDA_Projects/fft_t/prj/../rtl/complex_mult.vhd|
+R11
+R12
+!s100 69bZDGMC]:NPM?`RZ<Jdf2
+!i10b 1
+Abhv
+R14
+R2
+R3
+DEx4 work 12 complex_mult 0 22 a9gg6M>hcoj_i@LLPM64i3
+l11
+L10
+VA[^AII?3aLk8L23LYd9^U0
+R7
+31
+R30
+R31
+R32
+R11
+R12
+!s100 >JA=4A>28PSSZfW^^LOZJ1
+!i10b 1
+Ecomplex_sub
+Z33 w1717146581
+R14
+R15
+R2
+R3
+R4
+Z34 8D:/EDA_Projects/fft_t/prj/../rtl/complex_sub.vhd
+Z35 FD:/EDA_Projects/fft_t/prj/../rtl/complex_sub.vhd
+l0
+L5
+V<?3fA[feLCPYZ0LXI>`@V1
+R7
+31
+Z36 !s108 1717411055.930000
+Z37 !s90 -reportprogress|300|-93|-work|work|D:/EDA_Projects/fft_t/prj/../rtl/complex_sub.vhd|
+Z38 !s107 D:/EDA_Projects/fft_t/prj/../rtl/complex_sub.vhd|
+R11
+R12
+!s100 h9a36L=H8V=S8O>C1D=E50
+!i10b 1
+Abhv
+R14
+R15
+R2
+R3
+DEx4 work 11 complex_sub 0 22 <?3fA[feLCPYZ0LXI>`@V1
+l11
+L10
+Vh;K6SBT[@?SiLJL7c2k<U0
+R7
+31
+R36
+R37
+R38
+R11
+R12
+!s100 h=RPbD2@HnehCaDPFizO03
+!i10b 1
+Edata_reg
+Z39 w1717306991
+R2
+R3
+R4
+Z40 8D:/EDA_Projects/fft_t/prj/../rtl/data_reg.vhd
+Z41 FD:/EDA_Projects/fft_t/prj/../rtl/data_reg.vhd
+l0
+L4
+Vb]hL@NhLT^T>fG:N?i@[^1
+R7
+31
+Z42 !s108 1717411055.990000
+Z43 !s90 -reportprogress|300|-93|-work|work|D:/EDA_Projects/fft_t/prj/../rtl/data_reg.vhd|
+Z44 !s107 D:/EDA_Projects/fft_t/prj/../rtl/data_reg.vhd|
+R11
+R12
+!s100 TJ7GR`eW1a30@011hd3:N1
+!i10b 1
+Abhv
+R2
+R3
+DEx4 work 8 data_reg 0 22 b]hL@NhLT^T>fG:N?i@[^1
+l15
+L14
+VKT<5RbJS4K<NjoZOEUWdH2
+R7
+31
+R42
+R43
+R44
+R11
+R12
+!s100 5OGbBC5neT0ff4kjomhHB0
+!i10b 1
+vfft
+IKf5VENU8f47Ykj2edkdIM3
+Z45 V@6?o4<Mf>ocLG^B`3oE6K0
+R4
+w1717411829
+Z46 8fft.vo
+Z47 Ffft.vo
+L0 31
+Z48 OV;L;10.1d;51
+r1
+31
+Z49 !s90 -work|work|fft.vo|
+Z50 o-work work -O0
+!i10b 1
+!s100 Kn=_93:7L17[hClaELQMX2
+!s85 0
+!s108 1717411831.726000
+Z51 !s107 fft.vo|
+!s101 -O0
+Efft_tb
+Z52 w1717410941
+R14
+R15
+R2
+R3
+R4
+Z53 8D:/EDA_Projects/fft_t/prj/../testbench/fft_tb.vhd
+Z54 FD:/EDA_Projects/fft_t/prj/../testbench/fft_tb.vhd
+l0
+L5
+V@Y0OMFVAZ3`5h51B7WL:93
+R7
+31
+Z55 !s108 1717411055.550000
+Z56 !s90 -reportprogress|300|-93|-work|work|D:/EDA_Projects/fft_t/prj/../testbench/fft_tb.vhd|
+Z57 !s107 D:/EDA_Projects/fft_t/prj/../testbench/fft_tb.vhd|
+R11
+R12
+!s100 lLfcIDA@OgT`LBR=CPhQU3
+!i10b 1
+Atest
+R14
+R15
+R2
+R3
+DEx4 work 6 fft_tb 0 22 @Y0OMFVAZ3`5h51B7WL:93
+l36
+L8
+Vd^e;`?X@PDRXOI^XmUj^01
+R7
+31
+R55
+R56
+R57
+R11
+R12
+!s100 2Z1ciFz@^AaS1i624e`f=2
+!i10b 1
+vfft_vlg_check_tst
+!i10b 1
+Z58 !s100 M?42KFzLJPd?za[3EY2FH2
+Z59 I[=_o:WFfkKn0L>kA>BkLc1
+Z60 VRGK4nO^Y;nHke<B:doS252
+R4
+Z61 w1717411827
+Z62 8fft.vwf.vt
+Z63 Ffft.vwf.vt
+L0 95
+R48
+r1
+!s85 0
+31
+Z64 !s108 1717411832.130000
+Z65 !s107 fft.vwf.vt|
+Z66 !s90 -work|work|fft.vwf.vt|
+!s101 -O0
+R50
+vfft_vlg_sample_tst
+!i10b 1
+Z67 !s100 gOX?kTEKOh93;6IPMz_4R0
+Z68 I^]MSm=][lT;3OWJA2]mVH0
+Z69 VzlIBieFC]a_3@;i^D6QRi2
+R4
+R61
+R62
+R63
+L0 29
+R48
+r1
+!s85 0
+31
+R64
+R65
+R66
+!s101 -O0
+R50
+vfft_vlg_vec_tst
+!i10b 1
+!s100 1Y7jg<fnPVW820n`QQ6=h1
+IeWN6XMQBk47aDjY[48Me21
+Z70 VmN95ZekRSRZiZ_AXdi1k10
+R4
+R61
+R62
+R63
+Z71 L0 4899
+R48
+r1
+!s85 0
+31
+R64
+R65
+R66
+!s101 -O0
+R50
+Einput_conv
+Z72 w1717146517
+R14
+R15
+R2
+R3
+R4
+Z73 8D:/EDA_Projects/fft_t/prj/../rtl/input_conv.vhd
+Z74 FD:/EDA_Projects/fft_t/prj/../rtl/input_conv.vhd
+l0
+L5
+V7`RCP8CBbz0RK0<XX=zAl1
+R7
+31
+Z75 !s108 1717411056.048000
+Z76 !s90 -reportprogress|300|-93|-work|work|D:/EDA_Projects/fft_t/prj/../rtl/input_conv.vhd|
+Z77 !s107 D:/EDA_Projects/fft_t/prj/../rtl/input_conv.vhd|
+R11
+R12
+!s100 K]4NU@z2ZWIfJcN]lHgEc3
+!i10b 1
+Aifftci
+R14
+R15
+R2
+R3
+DEx4 work 10 input_conv 0 22 7`RCP8CBbz0RK0<XX=zAl1
+l15
+L14
+V7Va7ZNS@gEhm8KldL]3Mh3
+R7
+31
+R75
+R76
+R77
+R11
+R12
+!s100 0^ZB8L31eOm53m7X7PIdP2
+!i10b 1
+Eoutput_conv
+Z78 w1717335455
+R14
+R15
+R2
+R3
+R4
+Z79 8D:/EDA_Projects/fft_t/prj/../rtl/output_conv.vhd
+Z80 FD:/EDA_Projects/fft_t/prj/../rtl/output_conv.vhd
+l0
+L5
+V0<h3EZ8HoaYn1@Z3`WiYF2
+R7
+31
+Z81 !s108 1717411056.112000
+Z82 !s90 -reportprogress|300|-93|-work|work|D:/EDA_Projects/fft_t/prj/../rtl/output_conv.vhd|
+Z83 !s107 D:/EDA_Projects/fft_t/prj/../rtl/output_conv.vhd|
+R11
+R12
+!s100 H5d@_5O0YmeDRi6COOg]b2
+!i10b 1
+Aifftco
+R14
+R15
+R2
+R3
+DEx4 work 11 output_conv 0 22 0<h3EZ8HoaYn1@Z3`WiYF2
+l14
+L13
+VL>Jce?WgBUdgSM45L^ZL<0
+R7
+31
+R81
+R82
+R83
+R11
+R12
+!s100 E9JN:iP:FLk;fB<V;[3fP1
+!i10b 1

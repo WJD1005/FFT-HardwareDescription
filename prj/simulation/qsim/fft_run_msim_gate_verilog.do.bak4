@@ -1,0 +1,18 @@
+transcript on
+if {[file exists gate_work]} {
+	vdel -lib gate_work -all
+}
+vlib gate_work
+vmap work gate_work
+
+vlog -vlog01compat -work work +incdir+. {fft.vo}
+
+vcom -93 -work work {D:/EDA_Projects/fft_t/prj/../testbench/fft_tb.vhd}
+vcom -93 -work work {D:/EDA_Projects/fft_t/prj/../rtl/fft.vhd}
+
+vsim -t 1ps -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc"  fft_tb
+
+add wave *
+view structure
+view signals
+run 40000 ns

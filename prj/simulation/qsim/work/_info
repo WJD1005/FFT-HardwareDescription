@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\EDA_Projects\fft_t\prj\simulation\qsim
+vfft
+Z1 IfeRK^ofCja?`8HjeEklKY2
+Z2 V@6?o4<Mf>ocLG^B`3oE6K0
+Z3 dD:\EDA_Projects\fft_t\prj\simulation\qsim
+Z4 w1717335937
+Z5 8fft.vo
+Z6 Ffft.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 K4OFBbCk0eS=P[JVieoTX3
+!s85 0
+Z10 !s108 1717335938.390000
+Z11 !s107 fft.vo|
+Z12 !s90 -work|work|fft.vo|
+!s101 -O0
+vfft_vlg_check_tst
+!i10b 1
+!s100 M?42KFzLJPd?za[3EY2FH2
+I[=_o:WFfkKn0L>kA>BkLc1
+VRGK4nO^Y;nHke<B:doS252
+R3
+Z13 w1717335936
+Z14 8fft.vwf.vt
+Z15 Ffft.vwf.vt
+L0 95
+R7
+r1
+!s85 0
+31
+Z16 !s108 1717335938.763000
+Z17 !s107 fft.vwf.vt|
+Z18 !s90 -work|work|fft.vwf.vt|
+!s101 -O0
+R8
+vfft_vlg_sample_tst
+!i10b 1
+!s100 gOX?kTEKOh93;6IPMz_4R0
+I^]MSm=][lT;3OWJA2]mVH0
+VzlIBieFC]a_3@;i^D6QRi2
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vfft_vlg_vec_tst
+!i10b 1
+!s100 KcR=TY^QR0jzV^fm=<JKD1
+ILEjlOJMJZVK=C8`5mjDmm0
+VmN95ZekRSRZiZ_AXdi1k10
+R3
+R13
+R14
+R15
+L0 4899
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

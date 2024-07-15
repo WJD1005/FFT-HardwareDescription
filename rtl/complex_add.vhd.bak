@@ -1,0 +1,12 @@
+LIBRARY IEEE ;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_UNSIGNED.ALL;
+ENTITY complex_add IS 
+PORT(A_real,A_imag,B_real,B_imag: IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+     OUT_real,OUT_imag: OUT STD_LOGIC_VECTOR(31 DOWNTO 0));
+END ENTITY complex_add ;
+ARCHITECTURE BHV OF complex_add IS
+BEGIN 
+OUT_real <= STD_LOGIC_VECTOR((A_real) + (B_real));  
+OUT_imag <= STD_LOGIC_VECTOR((A_imag) + (B_imag));
+END BHV ;

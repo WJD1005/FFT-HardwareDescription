@@ -1,0 +1,46 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+ENTITY butterfly2 IS
+ PORT(
+      I1_real,I1_imag:IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+		I2_real,W_real,I2_imag,W_imag:IN STD_LOGIC_VECTOR(15 DOWNTO 0);
+      Q1_real,Q1_imag,Q2_real,Q2_imag:OUT STD_LOGIC_VECTOR(31 DOWNTO 0)
+     );
+	  
+ END butterfly2;
+ARCHITECTURE BHV OF butterfly2 IS
+ component complex_mult
+    PORT (
+	 A_real,A_imag,B_real,B_imag: IN STD_LOGIC_VECTOR(15 DOWNTO 0);
+	 OUT_real,OUT_imag: OUT STD_LOGIC_VECTOR(31 DOWNTO 0)
+	 );
+END component;
+component complex_add
+    PORT (
+	  A_real,A_imag,B_real,B_imag: IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+     OUT_real,OUT_imag: OUT STD_LOGIC_VECTOR(31 DOWNTO 0)
+	  );
+END component;
+ component complex_sub
+    PORT (
+	  A_real,A_imag,B_real,B_imag: IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+     OUT_real,OUT_imag: OUT STD_LOGIC_VECTOR(31 DOWNTO 0)
+	 );
+END component;
+SIGNAL net1,net2 : STD_LOGIC_VECTOR(31 DOWNTO 0);
+BEGIN
+ u1 : complex_mult PORT MAP(A_real=>I2_real,A_imag=>I2_imag,B_real=>W_real,B_imag=>W_imag,OUT_real=>net1,OUT_imag=>net2);
+ u2 : complex_add  PORT MAP(A_real=>I1_real,A_imag=>I1_imag,B_real=>net1,B_imag=>net2,OUT_real=>Q1_real,OUT_imag=>Q1_imag);
+ u3 : complex_sub  PORT MAP(A_real=>I1_real,A_imag=>I1_imag,B_real=>net1,B_imag=>net2,OUT_real=>Q2_real,OUT_imag=>Q2_imag);
+END ARCHITECTURE BHV;
+
+
+
+
+
+
+
+
+
+ 
+	 

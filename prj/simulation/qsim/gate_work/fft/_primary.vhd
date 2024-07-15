@@ -1,0 +1,42 @@
+library verilog;
+use verilog.vl_types.all;
+entity fft is
+    port(
+        EN              : in     vl_logic;
+        CLK             : in     vl_logic;
+        RESET           : in     vl_logic;
+        INV             : in     vl_logic;
+        I0_real         : in     vl_logic_vector(15 downto 0);
+        I1_real         : in     vl_logic_vector(15 downto 0);
+        I2_real         : in     vl_logic_vector(15 downto 0);
+        I3_real         : in     vl_logic_vector(15 downto 0);
+        I4_real         : in     vl_logic_vector(15 downto 0);
+        I5_real         : in     vl_logic_vector(15 downto 0);
+        I6_real         : in     vl_logic_vector(15 downto 0);
+        I7_real         : in     vl_logic_vector(15 downto 0);
+        I0_imag         : in     vl_logic_vector(15 downto 0);
+        I1_imag         : in     vl_logic_vector(15 downto 0);
+        I2_imag         : in     vl_logic_vector(15 downto 0);
+        I3_imag         : in     vl_logic_vector(15 downto 0);
+        I4_imag         : in     vl_logic_vector(15 downto 0);
+        I5_imag         : in     vl_logic_vector(15 downto 0);
+        I6_imag         : in     vl_logic_vector(15 downto 0);
+        I7_imag         : in     vl_logic_vector(15 downto 0);
+        O0_real         : out    vl_logic_vector(15 downto 0);
+        O1_real         : out    vl_logic_vector(15 downto 0);
+        O2_real         : out    vl_logic_vector(15 downto 0);
+        O3_real         : out    vl_logic_vector(15 downto 0);
+        O4_real         : out    vl_logic_vector(15 downto 0);
+        O5_real         : out    vl_logic_vector(15 downto 0);
+        O6_real         : out    vl_logic_vector(15 downto 0);
+        O7_real         : out    vl_logic_vector(15 downto 0);
+        O0_imag         : out    vl_logic_vector(15 downto 0);
+        O1_imag         : out    vl_logic_vector(15 downto 0);
+        O2_imag         : out    vl_logic_vector(15 downto 0);
+        O3_imag         : out    vl_logic_vector(15 downto 0);
+        O4_imag         : out    vl_logic_vector(15 downto 0);
+        O5_imag         : out    vl_logic_vector(15 downto 0);
+        O6_imag         : out    vl_logic_vector(15 downto 0);
+        O7_imag         : out    vl_logic_vector(15 downto 0)
+    );
+end fft;

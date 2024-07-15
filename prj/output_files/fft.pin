@@ -1,0 +1,850 @@
+ -- Copyright (C) 1991-2013 Altera Corporation
+ -- Your use of Altera Corporation's design tools, logic functions 
+ -- and other software and tools, and its AMPP partner logic 
+ -- functions, and any output files from any of the foregoing 
+ -- (including device programming or simulation files), and any 
+ -- associated documentation or information are expressly subject 
+ -- to the terms and conditions of the Altera Program License 
+ -- Subscription Agreement, Altera MegaCore Function License 
+ -- Agreement, or other applicable license agreement, including, 
+ -- without limitation, that your use is for the sole purpose of 
+ -- programming logic devices manufactured by Altera and sold by 
+ -- Altera or its authorized distributors.  Please refer to the 
+ -- applicable agreement for further details.
+ -- 
+ -- This is a Quartus II output file. It is for reporting purposes only, and is
+ -- not intended for use as a Quartus II input file. This file cannot be used
+ -- to make Quartus II pin assignments - for instructions on how to make pin
+ -- assignments, please see Quartus II help.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- NC            : No Connect. This pin has no internal connection to the device.
+ -- DNU           : Do Not Use. This pin MUST NOT be connected.
+ -- VCCINT        : Dedicated power pin, which MUST be connected to VCC  (1.2V).
+ -- VCCIO         : Dedicated power pin, which MUST be connected to VCC
+ --                 of its bank.
+ --					Bank 1:		2.5V
+ --					Bank 2:		2.5V
+ --					Bank 3:		2.5V
+ --					Bank 4:		2.5V
+ --					Bank 5:		2.5V
+ --					Bank 6:		2.5V
+ --					Bank 7:		2.5V
+ --					Bank 8:		2.5V
+ -- GND           : Dedicated ground pin. Dedicated GND pins MUST be connected to GND.
+ --					It can also be used to report unused dedicated pins. The connection
+ --					on the board for unused dedicated pins depends on whether this will
+ --					be used in a future design. One example is device migration. When
+ --					using device migration, refer to the device pin-tables. If it is a
+ --					GND pin in the pin table or if it will not be used in a future design
+ --					for another purpose the it MUST be connected to GND. If it is an unused
+ --					dedicated pin, then it can be connected to a valid signal on the board
+ --					(low, high, or toggling) if that signal is required for a different
+ --					revision of the design.
+ -- GND+          : Unused input pin. It can also be used to report unused dual-purpose pins.
+ --					This pin should be connected to GND. It may also be connected  to a
+ --					valid signal  on the board  (low, high, or toggling)  if that signal
+ --					is required for a different revision of the design.
+ -- GND*          : Unused  I/O  pin. Connect each pin marked GND* directly to GND
+ --           	    or leave it unconnected.
+ -- RESERVED      : Unused I/O pin, which MUST be left unconnected.
+ -- RESERVED_INPUT    : Pin is tri-stated and should be connected to the board.
+ -- RESERVED_INPUT_WITH_WEAK_PULLUP    : Pin is tri-stated with internal weak pull-up resistor.
+ -- RESERVED_INPUT_WITH_BUS_HOLD       : Pin is tri-stated with bus-hold circuitry.
+ -- RESERVED_OUTPUT_DRIVEN_HIGH        : Pin is output driven high.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- Pin directions (input, output or bidir) are based on device operating in user mode.
+ ---------------------------------------------------------------------------------
+
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+CHIP  "fft"  ASSIGNED TO AN: EP3C120F780C8
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+VCCIO8                       : A2        : power  :                   : 2.5V    : 8         :                
+I6_real[11]                  : A3        : input  : 2.5 V             :         : 8         : N              
+I4_real[3]                   : A4        : input  : 2.5 V             :         : 8         : N              
+VCCIO8                       : A5        : power  :                   : 2.5V    : 8         :                
+O6_imag[10]                  : A6        : output : 2.5 V             :         : 8         : N              
+O4_imag[13]                  : A7        : output : 2.5 V             :         : 8         : N              
+I7_real[15]                  : A8        : input  : 2.5 V             :         : 8         : N              
+VCCIO8                       : A9        : power  :                   : 2.5V    : 8         :                
+I4_real[2]                   : A10       : input  : 2.5 V             :         : 8         : N              
+O5_real[6]                   : A11       : output : 2.5 V             :         : 8         : N              
+O5_imag[10]                  : A12       : output : 2.5 V             :         : 8         : N              
+VCCIO8                       : A13       : power  :                   : 2.5V    : 8         :                
+I7_real[10]                  : A14       : input  : 2.5 V             :         : 8         : N              
+I1_real[9]                   : A15       : input  : 2.5 V             :         : 7         : N              
+VCCIO7                       : A16       : power  :                   : 2.5V    : 7         :                
+O7_imag[8]                   : A17       : output : 2.5 V             :         : 7         : N              
+I1_imag[10]                  : A18       : input  : 2.5 V             :         : 7         : N              
+O7_real[10]                  : A19       : output : 2.5 V             :         : 7         : N              
+VCCIO7                       : A20       : power  :                   : 2.5V    : 7         :                
+O3_imag[8]                   : A21       : output : 2.5 V             :         : 7         : N              
+O0_imag[7]                   : A22       : output : 2.5 V             :         : 7         : N              
+I7_imag[6]                   : A23       : input  : 2.5 V             :         : 7         : N              
+VCCIO7                       : A24       : power  :                   : 2.5V    : 7         :                
+I0_imag[12]                  : A25       : input  : 2.5 V             :         : 7         : N              
+O3_imag[0]                   : A26       : output : 2.5 V             :         : 7         : N              
+VCCIO7                       : A27       : power  :                   : 2.5V    : 7         :                
+VCCIO2                       : AA1       : power  :                   : 2.5V    : 2         :                
+GND                          : AA2       : gnd    :                   :         :           :                
+O0_real[6]                   : AA3       : output : 2.5 V             :         : 2         : N              
+O1_real[7]                   : AA4       : output : 2.5 V             :         : 2         : N              
+I1_real[2]                   : AA5       : input  : 2.5 V             :         : 2         : N              
+I5_real[5]                   : AA6       : input  : 2.5 V             :         : 2         : N              
+I5_real[7]                   : AA7       : input  : 2.5 V             :         : 2         : N              
+O5_real[9]                   : AA8       : output : 2.5 V             :         : 3         : N              
+GNDA1                        : AA9       : gnd    :                   :         :           :                
+I7_real[1]                   : AA10      : input  : 2.5 V             :         : 3         : N              
+VCCIO3                       : AA11      : power  :                   : 2.5V    : 3         :                
+O1_real[1]                   : AA12      : output : 2.5 V             :         : 3         : N              
+O1_imag[6]                   : AA13      : output : 2.5 V             :         : 3         : N              
+I5_real[14]                  : AA14      : input  : 2.5 V             :         : 3         : N              
+I5_imag[7]                   : AA15      : input  : 2.5 V             :         : 4         : N              
+O0_imag[12]                  : AA16      : output : 2.5 V             :         : 4         : N              
+O7_imag[2]                   : AA17      : output : 2.5 V             :         : 4         : N              
+VCCIO4                       : AA18      : power  :                   : 2.5V    : 4         :                
+I5_imag[4]                   : AA19      : input  : 2.5 V             :         : 4         : N              
+GNDA4                        : AA20      : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA21      :        :                   :         : 4         :                
+I2_imag[3]                   : AA22      : input  : 2.5 V             :         : 5         : N              
+I0_imag[15]                  : AA23      : input  : 2.5 V             :         : 5         : N              
+O2_imag[11]                  : AA24      : output : 2.5 V             :         : 5         : N              
+O6_real[15]                  : AA25      : output : 2.5 V             :         : 5         : N              
+I3_real[3]                   : AA26      : input  : 2.5 V             :         : 5         : N              
+GND                          : AA27      : gnd    :                   :         :           :                
+VCCIO5                       : AA28      : power  :                   : 2.5V    : 5         :                
+I1_real[11]                  : AB1       : input  : 2.5 V             :         : 2         : N              
+I1_real[5]                   : AB2       : input  : 2.5 V             :         : 2         : N              
+I6_real[10]                  : AB3       : input  : 2.5 V             :         : 2         : N              
+O5_imag[9]                   : AB4       : output : 2.5 V             :         : 2         : N              
+O4_real[13]                  : AB5       : output : 2.5 V             :         : 2         : N              
+I6_real[8]                   : AB6       : input  : 2.5 V             :         : 2         : N              
+O4_real[6]                   : AB7       : output : 2.5 V             :         : 3         : N              
+I5_real[13]                  : AB8       : input  : 2.5 V             :         : 3         : N              
+I6_real[4]                   : AB9       : input  : 2.5 V             :         : 3         : N              
+O5_real[5]                   : AB10      : output : 2.5 V             :         : 3         : N              
+I2_real[10]                  : AB11      : input  : 2.5 V             :         : 3         : N              
+I3_real[1]                   : AB12      : input  : 2.5 V             :         : 3         : N              
+I5_real[15]                  : AB13      : input  : 2.5 V             :         : 3         : N              
+O1_imag[5]                   : AB14      : output : 2.5 V             :         : 3         : N              
+O2_imag[3]                   : AB15      : output : 2.5 V             :         : 4         : N              
+I1_imag[7]                   : AB16      : input  : 2.5 V             :         : 4         : N              
+O0_imag[14]                  : AB17      : output : 2.5 V             :         : 4         : N              
+I7_imag[14]                  : AB18      : input  : 2.5 V             :         : 4         : N              
+I7_imag[5]                   : AB19      : input  : 2.5 V             :         : 4         : N              
+I1_imag[11]                  : AB20      : input  : 2.5 V             :         : 4         : N              
+O2_real[14]                  : AB21      : output : 2.5 V             :         : 4         : N              
+I7_imag[2]                   : AB22      : input  : 2.5 V             :         : 4         : N              
+O5_imag[4]                   : AB23      : output : 2.5 V             :         : 5         : N              
+O2_real[1]                   : AB24      : output : 2.5 V             :         : 5         : N              
+I2_imag[12]                  : AB25      : input  : 2.5 V             :         : 5         : N              
+O1_imag[3]                   : AB26      : output : 2.5 V             :         : 5         : N              
+I6_imag[11]                  : AB27      : input  : 2.5 V             :         : 5         : N              
+I1_imag[14]                  : AB28      : input  : 2.5 V             :         : 5         : N              
+I7_real[14]                  : AC1       : input  : 2.5 V             :         : 2         : N              
+O0_real[14]                  : AC2       : output : 2.5 V             :         : 2         : N              
+I7_real[13]                  : AC3       : input  : 2.5 V             :         : 2         : N              
+I4_real[5]                   : AC4       : input  : 2.5 V             :         : 2         : N              
+O1_real[4]                   : AC5       : output : 2.5 V             :         : 2         : N              
+GND                          : AC6       : gnd    :                   :         :           :                
+I5_real[4]                   : AC7       : input  : 2.5 V             :         : 3         : N              
+I4_real[0]                   : AC8       : input  : 2.5 V             :         : 3         : N              
+GND                          : AC9       : gnd    :                   :         :           :                
+O4_real[9]                   : AC10      : output : 2.5 V             :         : 3         : N              
+O1_real[0]                   : AC11      : output : 2.5 V             :         : 3         : N              
+I1_real[0]                   : AC12      : input  : 2.5 V             :         : 3         : N              
+GND                          : AC13      : gnd    :                   :         :           :                
+O1_imag[4]                   : AC14      : output : 2.5 V             :         : 3         : N              
+O2_real[8]                   : AC15      : output : 2.5 V             :         : 4         : N              
+GND                          : AC16      : gnd    :                   :         :           :                
+I4_imag[6]                   : AC17      : input  : 2.5 V             :         : 4         : N              
+O3_imag[14]                  : AC18      : output : 2.5 V             :         : 4         : N              
+I7_imag[4]                   : AC19      : input  : 2.5 V             :         : 4         : N              
+GND                          : AC20      : gnd    :                   :         :           :                
+I7_imag[9]                   : AC21      : input  : 2.5 V             :         : 4         : N              
+I4_imag[5]                   : AC22      : input  : 2.5 V             :         : 4         : N              
+GND                          : AC23      : gnd    :                   :         :           :                
+I5_imag[11]                  : AC24      : input  : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC25      :        :                   :         : 5         :                
+I3_imag[12]                  : AC26      : input  : 2.5 V             :         : 5         : N              
+O2_real[7]                   : AC27      : output : 2.5 V             :         : 5         : N              
+I1_imag[6]                   : AC28      : input  : 2.5 V             :         : 5         : N              
+O6_real[11]                  : AD1       : output : 2.5 V             :         : 2         : N              
+I2_real[6]                   : AD2       : input  : 2.5 V             :         : 2         : N              
+I4_real[9]                   : AD3       : input  : 2.5 V             :         : 2         : N              
+O0_real[9]                   : AD4       : output : 2.5 V             :         : 3         : N              
+I6_real[12]                  : AD5       : input  : 2.5 V             :         : 3         : N              
+VCCIO3                       : AD6       : power  :                   : 2.5V    : 3         :                
+I0_real[7]                   : AD7       : input  : 2.5 V             :         : 3         : N              
+I0_real[11]                  : AD8       : input  : 2.5 V             :         : 3         : N              
+VCCIO3                       : AD9       : power  :                   : 2.5V    : 3         :                
+I2_real[7]                   : AD10      : input  : 2.5 V             :         : 3         : N              
+O1_real[14]                  : AD11      : output : 2.5 V             :         : 3         : N              
+I1_real[15]                  : AD12      : input  : 2.5 V             :         : 3         : N              
+VCCIO3                       : AD13      : power  :                   : 2.5V    : 3         :                
+O2_imag[7]                   : AD14      : output : 2.5 V             :         : 3         : N              
+O2_real[2]                   : AD15      : output : 2.5 V             :         : 4         : N              
+VCCIO4                       : AD16      : power  :                   : 2.5V    : 4         :                
+I4_imag[12]                  : AD17      : input  : 2.5 V             :         : 4         : N              
+O5_imag[3]                   : AD18      : output : 2.5 V             :         : 4         : N              
+O3_imag[7]                   : AD19      : output : 2.5 V             :         : 4         : N              
+VCCIO4                       : AD20      : power  :                   : 2.5V    : 4         :                
+I1_imag[9]                   : AD21      : input  : 2.5 V             :         : 4         : N              
+O2_real[6]                   : AD22      : output : 2.5 V             :         : 4         : N              
+VCCIO4                       : AD23      : power  :                   : 2.5V    : 4         :                
+O2_real[5]                   : AD24      : output : 2.5 V             :         : 4         : N              
+I5_imag[10]                  : AD25      : input  : 2.5 V             :         : 4         : N              
+I4_imag[3]                   : AD26      : input  : 2.5 V             :         : 5         : N              
+O6_real[9]                   : AD27      : output : 2.5 V             :         : 5         : N              
+O0_imag[5]                   : AD28      : output : 2.5 V             :         : 5         : N              
+I1_real[13]                  : AE1       : input  : 2.5 V             :         : 2         : N              
+O2_imag[1]                   : AE2       : output : 2.5 V             :         : 2         : N              
+O5_real[15]                  : AE3       : output : 2.5 V             :         : 2         : N              
+I3_real[2]                   : AE4       : input  : 2.5 V             :         : 3         : N              
+I4_real[14]                  : AE5       : input  : 2.5 V             :         : 3         : N              
+O4_real[5]                   : AE6       : output : 2.5 V             :         : 3         : N              
+I5_real[9]                   : AE7       : input  : 2.5 V             :         : 3         : N              
+I5_real[1]                   : AE8       : input  : 2.5 V             :         : 3         : N              
+I7_real[3]                   : AE9       : input  : 2.5 V             :         : 3         : N              
+I4_real[11]                  : AE10      : input  : 2.5 V             :         : 3         : N              
+I4_real[13]                  : AE11      : input  : 2.5 V             :         : 3         : N              
+I0_real[5]                   : AE12      : input  : 2.5 V             :         : 3         : N              
+I0_real[8]                   : AE13      : input  : 2.5 V             :         : 3         : N              
+O1_real[10]                  : AE14      : output : 2.5 V             :         : 3         : N              
+O2_real[0]                   : AE15      : output : 2.5 V             :         : 4         : N              
+O0_imag[10]                  : AE16      : output : 2.5 V             :         : 4         : N              
+O0_imag[4]                   : AE17      : output : 2.5 V             :         : 4         : N              
+I3_imag[9]                   : AE18      : input  : 2.5 V             :         : 4         : N              
+O2_imag[4]                   : AE19      : output : 2.5 V             :         : 4         : N              
+O6_imag[13]                  : AE20      : output : 2.5 V             :         : 4         : N              
+O7_real[4]                   : AE21      : output : 2.5 V             :         : 4         : N              
+I5_imag[3]                   : AE22      : input  : 2.5 V             :         : 4         : N              
+O1_imag[13]                  : AE23      : output : 2.5 V             :         : 4         : N              
+I6_imag[10]                  : AE24      : input  : 2.5 V             :         : 4         : N              
+O0_imag[3]                   : AE25      : output : 2.5 V             :         : 4         : N              
+I4_imag[14]                  : AE26      : input  : 2.5 V             :         : 5         : N              
+I5_imag[9]                   : AE27      : input  : 2.5 V             :         : 5         : N              
+I7_imag[3]                   : AE28      : input  : 2.5 V             :         : 5         : N              
+GND                          : AF1       : gnd    :                   :         :           :                
+O1_real[5]                   : AF2       : output : 2.5 V             :         : 2         : N              
+I0_real[4]                   : AF3       : input  : 2.5 V             :         : 3         : N              
+I3_real[5]                   : AF4       : input  : 2.5 V             :         : 3         : N              
+I2_real[11]                  : AF5       : input  : 2.5 V             :         : 3         : N              
+I6_real[1]                   : AF6       : input  : 2.5 V             :         : 3         : N              
+I1_real[10]                  : AF7       : input  : 2.5 V             :         : 3         : N              
+O5_real[10]                  : AF8       : output : 2.5 V             :         : 3         : N              
+O0_real[15]                  : AF9       : output : 2.5 V             :         : 3         : N              
+I1_real[4]                   : AF10      : input  : 2.5 V             :         : 3         : N              
+I4_real[4]                   : AF11      : input  : 2.5 V             :         : 3         : N              
+I0_real[10]                  : AF12      : input  : 2.5 V             :         : 3         : N              
+I4_real[12]                  : AF13      : input  : 2.5 V             :         : 3         : N              
+O1_real[6]                   : AF14      : output : 2.5 V             :         : 3         : N              
+O2_real[13]                  : AF15      : output : 2.5 V             :         : 4         : N              
+O6_imag[0]                   : AF16      : output : 2.5 V             :         : 4         : N              
+O7_imag[10]                  : AF17      : output : 2.5 V             :         : 4         : N              
+I2_imag[4]                   : AF18      : input  : 2.5 V             :         : 4         : N              
+O6_real[6]                   : AF19      : output : 2.5 V             :         : 4         : N              
+O1_imag[10]                  : AF20      : output : 2.5 V             :         : 4         : N              
+O2_real[10]                  : AF21      : output : 2.5 V             :         : 4         : N              
+I5_imag[0]                   : AF22      : input  : 2.5 V             :         : 4         : N              
+I3_imag[10]                  : AF23      : input  : 2.5 V             :         : 4         : N              
+O1_imag[15]                  : AF24      : output : 2.5 V             :         : 4         : N              
+I7_imag[10]                  : AF25      : input  : 2.5 V             :         : 4         : N              
+O7_imag[0]                   : AF26      : output : 2.5 V             :         : 4         : N              
+I2_real[13]                  : AF27      : input  : 2.5 V             :         : 5         : N              
+GND                          : AF28      : gnd    :                   :         :           :                
+VCCIO2                       : AG1       : power  :                   : 2.5V    : 2         :                
+GND                          : AG2       : gnd    :                   :         :           :                
+O5_real[13]                  : AG3       : output : 2.5 V             :         : 3         : N              
+I6_real[3]                   : AG4       : input  : 2.5 V             :         : 3         : N              
+GND                          : AG5       : gnd    :                   :         :           :                
+I7_real[11]                  : AG6       : input  : 2.5 V             :         : 3         : N              
+I7_real[8]                   : AG7       : input  : 2.5 V             :         : 3         : N              
+O1_real[15]                  : AG8       : output : 2.5 V             :         : 3         : N              
+GND                          : AG9       : gnd    :                   :         :           :                
+I2_real[4]                   : AG10      : input  : 2.5 V             :         : 3         : N              
+I6_real[5]                   : AG11      : input  : 2.5 V             :         : 3         : N              
+O1_real[12]                  : AG12      : output : 2.5 V             :         : 3         : N              
+GND                          : AG13      : gnd    :                   :         :           :                
+GND+                         : AG14      :        :                   :         : 3         :                
+GND+                         : AG15      :        :                   :         : 4         :                
+GND                          : AG16      : gnd    :                   :         :           :                
+O0_imag[9]                   : AG17      : output : 2.5 V             :         : 4         : N              
+I6_imag[12]                  : AG18      : input  : 2.5 V             :         : 4         : N              
+I7_imag[12]                  : AG19      : input  : 2.5 V             :         : 4         : N              
+GND                          : AG20      : gnd    :                   :         :           :                
+I5_imag[8]                   : AG21      : input  : 2.5 V             :         : 4         : N              
+I5_imag[13]                  : AG22      : input  : 2.5 V             :         : 4         : N              
+O6_imag[5]                   : AG23      : output : 2.5 V             :         : 4         : N              
+GND                          : AG24      : gnd    :                   :         :           :                
+O2_real[11]                  : AG25      : output : 2.5 V             :         : 4         : N              
+I5_imag[2]                   : AG26      : input  : 2.5 V             :         : 4         : N              
+GND                          : AG27      : gnd    :                   :         :           :                
+VCCIO5                       : AG28      : power  :                   : 2.5V    : 5         :                
+VCCIO3                       : AH2       : power  :                   : 2.5V    : 3         :                
+O1_real[8]                   : AH3       : output : 2.5 V             :         : 3         : N              
+I6_real[7]                   : AH4       : input  : 2.5 V             :         : 3         : N              
+VCCIO3                       : AH5       : power  :                   : 2.5V    : 3         :                
+I0_real[13]                  : AH6       : input  : 2.5 V             :         : 3         : N              
+O0_real[11]                  : AH7       : output : 2.5 V             :         : 3         : N              
+I4_real[15]                  : AH8       : input  : 2.5 V             :         : 3         : N              
+VCCIO3                       : AH9       : power  :                   : 2.5V    : 3         :                
+I7_real[4]                   : AH10      : input  : 2.5 V             :         : 3         : N              
+I3_real[9]                   : AH11      : input  : 2.5 V             :         : 3         : N              
+O1_imag[8]                   : AH12      : output : 2.5 V             :         : 3         : N              
+VCCIO3                       : AH13      : power  :                   : 2.5V    : 3         :                
+GND+                         : AH14      :        :                   :         : 3         :                
+GND+                         : AH15      :        :                   :         : 4         :                
+VCCIO4                       : AH16      : power  :                   : 2.5V    : 4         :                
+O1_imag[12]                  : AH17      : output : 2.5 V             :         : 4         : N              
+I1_imag[4]                   : AH18      : input  : 2.5 V             :         : 4         : N              
+I6_imag[13]                  : AH19      : input  : 2.5 V             :         : 4         : N              
+VCCIO4                       : AH20      : power  :                   : 2.5V    : 4         :                
+I2_imag[8]                   : AH21      : input  : 2.5 V             :         : 4         : N              
+O6_imag[6]                   : AH22      : output : 2.5 V             :         : 4         : N              
+O6_real[14]                  : AH23      : output : 2.5 V             :         : 4         : N              
+VCCIO4                       : AH24      : power  :                   : 2.5V    : 4         :                
+O4_imag[1]                   : AH25      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH26      :        :                   :         : 4         :                
+VCCIO4                       : AH27      : power  :                   : 2.5V    : 4         :                
+VCCIO1                       : B1        : power  :                   : 2.5V    : 1         :                
+GND                          : B2        : gnd    :                   :         :           :                
+O3_imag[3]                   : B3        : output : 2.5 V             :         : 8         : N              
+I2_real[15]                  : B4        : input  : 2.5 V             :         : 8         : N              
+GND                          : B5        : gnd    :                   :         :           :                
+O1_imag[9]                   : B6        : output : 2.5 V             :         : 8         : N              
+O4_imag[6]                   : B7        : output : 2.5 V             :         : 8         : N              
+O5_real[12]                  : B8        : output : 2.5 V             :         : 8         : N              
+GND                          : B9        : gnd    :                   :         :           :                
+O5_real[8]                   : B10       : output : 2.5 V             :         : 8         : N              
+O5_real[14]                  : B11       : output : 2.5 V             :         : 8         : N              
+O2_imag[6]                   : B12       : output : 2.5 V             :         : 8         : N              
+GND                          : B13       : gnd    :                   :         :           :                
+I3_real[10]                  : B14       : input  : 2.5 V             :         : 8         : N              
+I6_real[9]                   : B15       : input  : 2.5 V             :         : 7         : N              
+GND                          : B16       : gnd    :                   :         :           :                
+O7_imag[5]                   : B17       : output : 2.5 V             :         : 7         : N              
+I7_imag[7]                   : B18       : input  : 2.5 V             :         : 7         : N              
+O6_real[5]                   : B19       : output : 2.5 V             :         : 7         : N              
+GND                          : B20       : gnd    :                   :         :           :                
+O4_imag[14]                  : B21       : output : 2.5 V             :         : 7         : N              
+O7_imag[6]                   : B22       : output : 2.5 V             :         : 7         : N              
+I6_imag[2]                   : B23       : input  : 2.5 V             :         : 7         : N              
+GND                          : B24       : gnd    :                   :         :           :                
+I3_imag[1]                   : B25       : input  : 2.5 V             :         : 7         : N              
+I5_imag[6]                   : B26       : input  : 2.5 V             :         : 7         : N              
+GND                          : B27       : gnd    :                   :         :           :                
+VCCIO6                       : B28       : power  :                   : 2.5V    : 6         :                
+GND                          : C1        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C2        :        :                   :         : 1         :                
+O6_real[0]                   : C3        : output : 2.5 V             :         : 8         : N              
+O3_imag[11]                  : C4        : output : 2.5 V             :         : 8         : N              
+O3_real[0]                   : C5        : output : 2.5 V             :         : 8         : N              
+O2_imag[10]                  : C6        : output : 2.5 V             :         : 8         : N              
+O5_real[2]                   : C7        : output : 2.5 V             :         : 8         : N              
+I1_real[7]                   : C8        : input  : 2.5 V             :         : 8         : N              
+O3_real[6]                   : C9        : output : 2.5 V             :         : 8         : N              
+O2_imag[13]                  : C10       : output : 2.5 V             :         : 8         : N              
+O3_real[11]                  : C11       : output : 2.5 V             :         : 8         : N              
+O7_real[3]                   : C12       : output : 2.5 V             :         : 8         : N              
+O2_imag[2]                   : C13       : output : 2.5 V             :         : 8         : N              
+O6_imag[1]                   : C14       : output : 2.5 V             :         : 8         : N              
+O7_real[2]                   : C15       : output : 2.5 V             :         : 7         : N              
+O0_imag[6]                   : C16       : output : 2.5 V             :         : 7         : N              
+O7_real[11]                  : C17       : output : 2.5 V             :         : 7         : N              
+O3_imag[10]                  : C18       : output : 2.5 V             :         : 7         : N              
+O2_real[3]                   : C19       : output : 2.5 V             :         : 7         : N              
+O7_real[7]                   : C20       : output : 2.5 V             :         : 7         : N              
+I2_imag[13]                  : C21       : input  : 2.5 V             :         : 7         : N              
+I2_imag[5]                   : C22       : input  : 2.5 V             :         : 7         : N              
+I3_imag[4]                   : C23       : input  : 2.5 V             :         : 7         : N              
+I7_imag[13]                  : C24       : input  : 2.5 V             :         : 7         : N              
+I7_imag[15]                  : C25       : input  : 2.5 V             :         : 7         : N              
+I1_imag[2]                   : C26       : input  : 2.5 V             :         : 7         : N              
+I7_imag[8]                   : C27       : input  : 2.5 V             :         : 6         : N              
+GND                          : C28       : gnd    :                   :         :           :                
+O6_imag[12]                  : D1        : output : 2.5 V             :         : 1         : N              
+I1_real[8]                   : D2        : input  : 2.5 V             :         : 1         : N              
+I2_real[3]                   : D3        : input  : 2.5 V             :         : 1         : N              
+O5_imag[1]                   : D4        : output : 2.5 V             :         : 8         : N              
+O6_real[13]                  : D5        : output : 2.5 V             :         : 8         : N              
+I4_real[8]                   : D6        : input  : 2.5 V             :         : 8         : N              
+O0_real[13]                  : D7        : output : 2.5 V             :         : 8         : N              
+I5_real[3]                   : D8        : input  : 2.5 V             :         : 8         : N              
+O1_imag[7]                   : D9        : output : 2.5 V             :         : 8         : N              
+I0_real[3]                   : D10       : input  : 2.5 V             :         : 8         : N              
+O1_imag[2]                   : D11       : output : 2.5 V             :         : 8         : N              
+O5_imag[15]                  : D12       : output : 2.5 V             :         : 8         : N              
+O2_imag[15]                  : D13       : output : 2.5 V             :         : 8         : N              
+O6_real[3]                   : D14       : output : 2.5 V             :         : 8         : N              
+O5_imag[7]                   : D15       : output : 2.5 V             :         : 7         : N              
+O3_imag[5]                   : D16       : output : 2.5 V             :         : 7         : N              
+I3_imag[5]                   : D17       : input  : 2.5 V             :         : 7         : N              
+O2_real[12]                  : D18       : output : 2.5 V             :         : 7         : N              
+I4_imag[10]                  : D19       : input  : 2.5 V             :         : 7         : N              
+O3_imag[1]                   : D20       : output : 2.5 V             :         : 7         : N              
+I2_imag[15]                  : D21       : input  : 2.5 V             :         : 7         : N              
+I6_imag[0]                   : D22       : input  : 2.5 V             :         : 7         : N              
+I3_imag[0]                   : D23       : input  : 2.5 V             :         : 7         : N              
+I4_imag[13]                  : D24       : input  : 2.5 V             :         : 7         : N              
+O7_real[8]                   : D25       : output : 2.5 V             :         : 7         : N              
+O4_imag[7]                   : D26       : output : 2.5 V             :         : 6         : N              
+I3_imag[8]                   : D27       : input  : 2.5 V             :         : 6         : N              
+I0_imag[14]                  : D28       : input  : 2.5 V             :         : 6         : N              
+I4_real[10]                  : E1        : input  : 2.5 V             :         : 1         : N              
+~ALTERA_FLASH_nCE_nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : E2        : input  : 2.5 V             :         : 1         : N              
+O3_real[1]                   : E3        : output : 2.5 V             :         : 1         : N              
+O5_imag[12]                  : E4        : output : 2.5 V             :         : 8         : N              
+O5_imag[8]                   : E5        : output : 2.5 V             :         : 8         : N              
+VCCIO8                       : E6        : power  :                   : 2.5V    : 8         :                
+O4_real[14]                  : E7        : output : 2.5 V             :         : 8         : N              
+O5_imag[2]                   : E8        : output : 2.5 V             :         : 8         : N              
+VCCIO8                       : E9        : power  :                   : 2.5V    : 8         :                
+I3_real[14]                  : E10       : input  : 2.5 V             :         : 8         : N              
+O4_imag[12]                  : E11       : output : 2.5 V             :         : 8         : N              
+O0_imag[2]                   : E12       : output : 2.5 V             :         : 8         : N              
+VCCIO8                       : E13       : power  :                   : 2.5V    : 8         :                
+O1_real[2]                   : E14       : output : 2.5 V             :         : 8         : N              
+O3_imag[4]                   : E15       : output : 2.5 V             :         : 7         : N              
+VCCIO7                       : E16       : power  :                   : 2.5V    : 7         :                
+O7_imag[9]                   : E17       : output : 2.5 V             :         : 7         : N              
+O4_imag[10]                  : E18       : output : 2.5 V             :         : 7         : N              
+I1_imag[3]                   : E19       : input  : 2.5 V             :         : 7         : N              
+VCCIO7                       : E20       : power  :                   : 2.5V    : 7         :                
+O4_imag[11]                  : E21       : output : 2.5 V             :         : 7         : N              
+I5_imag[5]                   : E22       : input  : 2.5 V             :         : 7         : N              
+VCCIO7                       : E23       : power  :                   : 2.5V    : 7         :                
+O0_imag[11]                  : E24       : output : 2.5 V             :         : 7         : N              
+O4_imag[2]                   : E25       : output : 2.5 V             :         : 7         : N              
+I0_imag[3]                   : E26       : input  : 2.5 V             :         : 6         : N              
+I6_imag[1]                   : E27       : input  : 2.5 V             :         : 6         : N              
+I4_imag[0]                   : E28       : input  : 2.5 V             :         : 6         : N              
+O5_real[4]                   : F1        : output : 2.5 V             :         : 1         : N              
+O7_imag[12]                  : F2        : output : 2.5 V             :         : 1         : N              
+I6_real[6]                   : F3        : input  : 2.5 V             :         : 1         : N              
+~ALTERA_ASDO_DATA1~ / RESERVED_INPUT_WITH_WEAK_PULLUP : F4        : input  : 2.5 V             :         : 1         : N              
+O4_real[12]                  : F5        : output : 2.5 V             :         : 1         : N              
+GND                          : F6        : gnd    :                   :         :           :                
+O6_real[2]                   : F7        : output : 2.5 V             :         : 8         : N              
+I3_real[12]                  : F8        : input  : 2.5 V             :         : 8         : N              
+GND                          : F9        : gnd    :                   :         :           :                
+O7_real[0]                   : F10       : output : 2.5 V             :         : 8         : N              
+O3_imag[15]                  : F11       : output : 2.5 V             :         : 8         : N              
+O5_imag[11]                  : F12       : output : 2.5 V             :         : 8         : N              
+GND                          : F13       : gnd    :                   :         :           :                
+O3_real[13]                  : F14       : output : 2.5 V             :         : 8         : N              
+O3_imag[6]                   : F15       : output : 2.5 V             :         : 7         : N              
+GND                          : F16       : gnd    :                   :         :           :                
+I0_imag[0]                   : F17       : input  : 2.5 V             :         : 7         : N              
+O7_imag[7]                   : F18       : output : 2.5 V             :         : 7         : N              
+I1_imag[1]                   : F19       : input  : 2.5 V             :         : 7         : N              
+GND                          : F20       : gnd    :                   :         :           :                
+I3_imag[3]                   : F21       : input  : 2.5 V             :         : 7         : N              
+O4_imag[9]                   : F22       : output : 2.5 V             :         : 7         : N              
+GND                          : F23       : gnd    :                   :         :           :                
+I0_imag[8]                   : F24       : input  : 2.5 V             :         : 6         : N              
+I2_imag[9]                   : F25       : input  : 2.5 V             :         : 6         : N              
+O5_imag[13]                  : F26       : output : 2.5 V             :         : 6         : N              
+I0_imag[13]                  : F27       : input  : 2.5 V             :         : 6         : N              
+I0_imag[7]                   : F28       : input  : 2.5 V             :         : 6         : N              
+O4_imag[15]                  : G1        : output : 2.5 V             :         : 1         : N              
+I6_real[2]                   : G2        : input  : 2.5 V             :         : 1         : N              
+I5_real[8]                   : G3        : input  : 2.5 V             :         : 1         : N              
+I1_real[6]                   : G4        : input  : 2.5 V             :         : 1         : N              
+I3_real[11]                  : G5        : input  : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : G6        :        :                   :         : 1         :                
+I6_real[0]                   : G7        : input  : 2.5 V             :         : 8         : N              
+I0_real[1]                   : G8        : input  : 2.5 V             :         : 8         : N              
+I2_real[5]                   : G9        : input  : 2.5 V             :         : 8         : N              
+O0_real[4]                   : G10       : output : 2.5 V             :         : 8         : N              
+O3_real[9]                   : G11       : output : 2.5 V             :         : 8         : N              
+O2_real[4]                   : G12       : output : 2.5 V             :         : 8         : N              
+I0_real[0]                   : G13       : input  : 2.5 V             :         : 8         : N              
+O3_real[12]                  : G14       : output : 2.5 V             :         : 8         : N              
+O7_real[15]                  : G15       : output : 2.5 V             :         : 7         : N              
+O4_imag[0]                   : G16       : output : 2.5 V             :         : 7         : N              
+O2_real[9]                   : G17       : output : 2.5 V             :         : 7         : N              
+I0_imag[10]                  : G18       : input  : 2.5 V             :         : 7         : N              
+I6_imag[3]                   : G19       : input  : 2.5 V             :         : 7         : N              
+I1_imag[8]                   : G20       : input  : 2.5 V             :         : 7         : N              
+I3_imag[7]                   : G21       : input  : 2.5 V             :         : 7         : N              
+I7_imag[0]                   : G22       : input  : 2.5 V             :         : 7         : N              
+I1_imag[15]                  : G23       : input  : 2.5 V             :         : 6         : N              
+O7_real[13]                  : G24       : output : 2.5 V             :         : 6         : N              
+O3_real[10]                  : G25       : output : 2.5 V             :         : 6         : N              
+O2_imag[5]                   : G26       : output : 2.5 V             :         : 6         : N              
+I6_imag[7]                   : G27       : input  : 2.5 V             :         : 6         : N              
+I0_imag[11]                  : G28       : input  : 2.5 V             :         : 6         : N              
+VCCIO1                       : H1        : power  :                   : 2.5V    : 1         :                
+GND                          : H2        : gnd    :                   :         :           :                
+O7_real[9]                   : H3        : output : 2.5 V             :         : 1         : N              
+O7_real[6]                   : H4        : output : 2.5 V             :         : 1         : N              
+O5_real[7]                   : H5        : output : 2.5 V             :         : 1         : N              
+O6_imag[11]                  : H6        : output : 2.5 V             :         : 1         : N              
+I5_real[0]                   : H7        : input  : 2.5 V             :         : 1         : N              
+I7_real[5]                   : H8        : input  : 2.5 V             :         : 8         : N              
+GNDA3                        : H9        : gnd    :                   :         :           :                
+I0_real[15]                  : H10       : input  : 2.5 V             :         : 8         : N              
+VCCIO8                       : H11       : power  :                   : 2.5V    : 8         :                
+O3_real[4]                   : H12       : output : 2.5 V             :         : 8         : N              
+I4_real[7]                   : H13       : input  : 2.5 V             :         : 8         : N              
+O6_real[4]                   : H14       : output : 2.5 V             :         : 8         : N              
+O2_imag[8]                   : H15       : output : 2.5 V             :         : 7         : N              
+O0_imag[0]                   : H16       : output : 2.5 V             :         : 7         : N              
+O4_imag[3]                   : H17       : output : 2.5 V             :         : 7         : N              
+VCCIO7                       : H18       : power  :                   : 2.5V    : 7         :                
+I2_imag[0]                   : H19       : input  : 2.5 V             :         : 7         : N              
+GNDA2                        : H20       : gnd    :                   :         :           :                
+I4_imag[7]                   : H21       : input  : 2.5 V             :         : 7         : N              
+O6_real[12]                  : H22       : output : 2.5 V             :         : 6         : N              
+I3_imag[14]                  : H23       : input  : 2.5 V             :         : 6         : N              
+I4_imag[8]                   : H24       : input  : 2.5 V             :         : 6         : N              
+I6_imag[8]                   : H25       : input  : 2.5 V             :         : 6         : N              
+O0_imag[8]                   : H26       : output : 2.5 V             :         : 6         : N              
+GND                          : H27       : gnd    :                   :         :           :                
+VCCIO6                       : H28       : power  :                   : 2.5V    : 6         :                
+RESET                        : J1        : input  : 2.5 V             :         : 1         : N              
+CLK                          : J2        : input  : 2.5 V             :         : 1         : N              
+I0_real[12]                  : J3        : input  : 2.5 V             :         : 1         : N              
+I0_real[9]                   : J4        : input  : 2.5 V             :         : 1         : N              
+O7_real[14]                  : J5        : output : 2.5 V             :         : 1         : N              
+I3_real[15]                  : J6        : input  : 2.5 V             :         : 1         : N              
+O3_real[8]                   : J7        : output : 2.5 V             :         : 1         : N              
+VCCA3                        : J8        : power  :                   : 2.5V    :           :                
+VCCD_PLL3                    : J9        : power  :                   : 1.2V    :           :                
+O5_real[0]                   : J10       : output : 2.5 V             :         : 8         : N              
+GND                          : J11       : gnd    :                   :         :           :                
+O5_real[1]                   : J12       : output : 2.5 V             :         : 8         : N              
+O5_real[3]                   : J13       : output : 2.5 V             :         : 8         : N              
+O6_real[1]                   : J14       : output : 2.5 V             :         : 8         : N              
+O3_imag[13]                  : J15       : output : 2.5 V             :         : 7         : N              
+O4_imag[5]                   : J16       : output : 2.5 V             :         : 7         : N              
+I6_imag[14]                  : J17       : input  : 2.5 V             :         : 7         : N              
+GND                          : J18       : gnd    :                   :         :           :                
+I2_imag[1]                   : J19       : input  : 2.5 V             :         : 7         : N              
+VCCD_PLL2                    : J20       : power  :                   : 1.2V    :           :                
+VCCA2                        : J21       : power  :                   : 2.5V    :           :                
+O3_imag[12]                  : J22       : output : 2.5 V             :         : 6         : N              
+I3_imag[11]                  : J23       : input  : 2.5 V             :         : 6         : N              
+I0_imag[2]                   : J24       : input  : 2.5 V             :         : 6         : N              
+I0_imag[4]                   : J25       : input  : 2.5 V             :         : 6         : N              
+O7_imag[13]                  : J26       : output : 2.5 V             :         : 6         : N              
+I1_imag[12]                  : J27       : input  : 2.5 V             :         : 6         : N              
+I1_imag[13]                  : J28       : input  : 2.5 V             :         : 6         : N              
+O3_real[15]                  : K1        : output : 2.5 V             :         : 1         : N              
+I6_real[15]                  : K2        : input  : 2.5 V             :         : 1         : N              
+I3_real[6]                   : K3        : input  : 2.5 V             :         : 1         : N              
+O3_real[2]                   : K4        : output : 2.5 V             :         : 1         : N              
+VCCIO1                       : K5        : power  :                   : 2.5V    : 1         :                
+GND                          : K6        : gnd    :                   :         :           :                
+I2_real[2]                   : K7        : input  : 2.5 V             :         : 1         : N              
+O7_imag[15]                  : K8        : output : 2.5 V             :         : 1         : N              
+VCCINT                       : K9        : power  :                   : 1.2V    :           :                
+GND                          : K10       : gnd    :                   :         :           :                
+VCCINT                       : K11       : power  :                   : 1.2V    :           :                
+GND                          : K12       : gnd    :                   :         :           :                
+VCCINT                       : K13       : power  :                   : 1.2V    :           :                
+GND                          : K14       : gnd    :                   :         :           :                
+VCCINT                       : K15       : power  :                   : 1.2V    :           :                
+GND                          : K16       : gnd    :                   :         :           :                
+VCCINT                       : K17       : power  :                   : 1.2V    :           :                
+GND                          : K18       : gnd    :                   :         :           :                
+VCCINT                       : K19       : power  :                   : 1.2V    :           :                
+GND                          : K20       : gnd    :                   :         :           :                
+O7_imag[11]                  : K21       : output : 2.5 V             :         : 6         : N              
+O3_imag[2]                   : K22       : output : 2.5 V             :         : 6         : N              
+GND                          : K23       : gnd    :                   :         :           :                
+VCCIO6                       : K24       : power  :                   : 2.5V    : 6         :                
+I2_imag[7]                   : K25       : input  : 2.5 V             :         : 6         : N              
+O5_imag[6]                   : K26       : output : 2.5 V             :         : 6         : N              
+O7_real[1]                   : K27       : output : 2.5 V             :         : 6         : N              
+I7_imag[1]                   : K28       : input  : 2.5 V             :         : 6         : N              
+I2_real[0]                   : L1        : input  : 2.5 V             :         : 1         : N              
+O6_imag[15]                  : L2        : output : 2.5 V             :         : 1         : N              
+I2_real[8]                   : L3        : input  : 2.5 V             :         : 1         : N              
+O4_real[7]                   : L4        : output : 2.5 V             :         : 1         : N              
+I0_real[14]                  : L5        : input  : 2.5 V             :         : 1         : N              
+O5_imag[0]                   : L6        : output : 2.5 V             :         : 1         : N              
+O4_imag[4]                   : L7        : output : 2.5 V             :         : 1         : N              
+I1_real[1]                   : L8        : input  : 2.5 V             :         : 1         : N              
+GND                          : L9        : gnd    :                   :         :           :                
+VCCINT                       : L10       : power  :                   : 1.2V    :           :                
+GND                          : L11       : gnd    :                   :         :           :                
+VCCINT                       : L12       : power  :                   : 1.2V    :           :                
+GND                          : L13       : gnd    :                   :         :           :                
+VCCINT                       : L14       : power  :                   : 1.2V    :           :                
+GND                          : L15       : gnd    :                   :         :           :                
+VCCINT                       : L16       : power  :                   : 1.2V    :           :                
+GND                          : L17       : gnd    :                   :         :           :                
+VCCINT                       : L18       : power  :                   : 1.2V    :           :                
+GND                          : L19       : gnd    :                   :         :           :                
+VCCINT                       : L20       : power  :                   : 1.2V    :           :                
+I4_imag[9]                   : L21       : input  : 2.5 V             :         : 6         : N              
+O4_imag[8]                   : L22       : output : 2.5 V             :         : 6         : N              
+O2_imag[14]                  : L23       : output : 2.5 V             :         : 6         : N              
+I4_imag[1]                   : L24       : input  : 2.5 V             :         : 6         : N              
+I4_imag[4]                   : L25       : input  : 2.5 V             :         : 6         : N              
+O7_real[12]                  : L26       : output : 2.5 V             :         : 6         : N              
+O7_imag[14]                  : L27       : output : 2.5 V             :         : 6         : N              
+O5_imag[5]                   : L28       : output : 2.5 V             :         : 6         : N              
+O7_imag[4]                   : M1        : output : 2.5 V             :         : 1         : N              
+I7_real[6]                   : M2        : input  : 2.5 V             :         : 1         : N              
+O1_real[3]                   : M3        : output : 2.5 V             :         : 1         : N              
+O4_real[4]                   : M4        : output : 2.5 V             :         : 1         : N              
+O5_imag[14]                  : M5        : output : 2.5 V             :         : 1         : N              
+nSTATUS                      : M6        :        :                   :         : 1         :                
+I5_real[2]                   : M7        : input  : 2.5 V             :         : 1         : N              
+I0_real[2]                   : M8        : input  : 2.5 V             :         : 1         : N              
+VCCINT                       : M9        : power  :                   : 1.2V    :           :                
+GND                          : M10       : gnd    :                   :         :           :                
+VCCINT                       : M11       : power  :                   : 1.2V    :           :                
+GND                          : M12       : gnd    :                   :         :           :                
+VCCINT                       : M13       : power  :                   : 1.2V    :           :                
+GND                          : M14       : gnd    :                   :         :           :                
+VCCINT                       : M15       : power  :                   : 1.2V    :           :                
+GND                          : M16       : gnd    :                   :         :           :                
+VCCINT                       : M17       : power  :                   : 1.2V    :           :                
+GND                          : M18       : gnd    :                   :         :           :                
+VCCINT                       : M19       : power  :                   : 1.2V    :           :                
+GND                          : M20       : gnd    :                   :         :           :                
+O3_real[14]                  : M21       : output : 2.5 V             :         : 6         : N              
+MSEL2                        : M22       :        :                   :         : 6         :                
+I4_imag[2]                   : M23       : input  : 2.5 V             :         : 6         : N              
+O2_imag[12]                  : M24       : output : 2.5 V             :         : 6         : N              
+I0_imag[9]                   : M25       : input  : 2.5 V             :         : 6         : N              
+O3_real[3]                   : M26       : output : 2.5 V             :         : 6         : N              
+O3_real[5]                   : M27       : output : 2.5 V             :         : 6         : N              
+I3_imag[2]                   : M28       : input  : 2.5 V             :         : 6         : N              
+VCCIO1                       : N1        : power  :                   : 2.5V    : 1         :                
+GND                          : N2        : gnd    :                   :         :           :                
+O7_real[5]                   : N3        : output : 2.5 V             :         : 1         : N              
+O3_real[7]                   : N4        : output : 2.5 V             :         : 1         : N              
+VCCIO1                       : N5        : power  :                   : 2.5V    : 1         :                
+GND                          : N6        : gnd    :                   :         :           :                
+~ALTERA_DATA0~ / RESERVED_INPUT_WITH_WEAK_PULLUP : N7        : input  : 2.5 V             :         : 1         : N              
+I0_real[6]                   : N8        : input  : 2.5 V             :         : 1         : N              
+GND                          : N9        : gnd    :                   :         :           :                
+VCCINT                       : N10       : power  :                   : 1.2V    :           :                
+GND                          : N11       : gnd    :                   :         :           :                
+VCCINT                       : N12       : power  :                   : 1.2V    :           :                
+GND                          : N13       : gnd    :                   :         :           :                
+VCCINT                       : N14       : power  :                   : 1.2V    :           :                
+GND                          : N15       : gnd    :                   :         :           :                
+VCCINT                       : N16       : power  :                   : 1.2V    :           :                
+GND                          : N17       : gnd    :                   :         :           :                
+VCCINT                       : N18       : power  :                   : 1.2V    :           :                
+GND                          : N19       : gnd    :                   :         :           :                
+VCCINT                       : N20       : power  :                   : 1.2V    :           :                
+I6_imag[5]                   : N21       : input  : 2.5 V             :         : 6         : N              
+MSEL0                        : N22       :        :                   :         : 6         :                
+GND                          : N23       : gnd    :                   :         :           :                
+VCCIO6                       : N24       : power  :                   : 2.5V    : 6         :                
+I3_imag[6]                   : N25       : input  : 2.5 V             :         : 6         : N              
+I4_imag[15]                  : N26       : input  : 2.5 V             :         : 6         : N              
+GND                          : N27       : gnd    :                   :         :           :                
+VCCIO6                       : N28       : power  :                   : 2.5V    : 6         :                
+I5_real[10]                  : P1        : input  : 2.5 V             :         : 1         : N              
+O5_real[11]                  : P2        : output : 2.5 V             :         : 1         : N              
+~ALTERA_DCLK~                : P3        : output : 2.5 V             :         : 1         : N              
+nCONFIG                      : P4        :        :                   :         : 1         :                
+TCK                          : P5        : input  :                   :         : 1         :                
+TDO                          : P6        : output :                   :         : 1         :                
+TDI                          : P7        : input  :                   :         : 1         :                
+TMS                          : P8        : input  :                   :         : 1         :                
+VCCINT                       : P9        : power  :                   : 1.2V    :           :                
+GND                          : P10       : gnd    :                   :         :           :                
+VCCINT                       : P11       : power  :                   : 1.2V    :           :                
+GND                          : P12       : gnd    :                   :         :           :                
+VCCINT                       : P13       : power  :                   : 1.2V    :           :                
+GND                          : P14       : gnd    :                   :         :           :                
+VCCINT                       : P15       : power  :                   : 1.2V    :           :                
+GND                          : P16       : gnd    :                   :         :           :                
+VCCINT                       : P17       : power  :                   : 1.2V    :           :                
+GND                          : P18       : gnd    :                   :         :           :                
+VCCINT                       : P19       : power  :                   : 1.2V    :           :                
+GND                          : P20       : gnd    :                   :         :           :                
+O6_imag[9]                   : P21       : output : 2.5 V             :         : 5         : N              
+MSEL3                        : P22       :        :                   :         : 6         :                
+MSEL1                        : P23       :        :                   :         : 6         :                
+CONF_DONE                    : P24       :        :                   :         : 6         :                
+O3_imag[9]                   : P25       : output : 2.5 V             :         : 6         : N              
+O4_real[15]                  : P26       : output : 2.5 V             :         : 6         : N              
+I0_imag[1]                   : P27       : input  : 2.5 V             :         : 6         : N              
+~ALTERA_nCEO~ / RESERVED_OUTPUT_OPEN_DRAIN : P28       : output : 2.5 V             :         : 6         : N              
+O1_imag[14]                  : R1        : output : 2.5 V             :         : 2         : N              
+O6_imag[4]                   : R2        : output : 2.5 V             :         : 2         : N              
+I6_real[13]                  : R3        : input  : 2.5 V             :         : 2         : N              
+I2_real[1]                   : R4        : input  : 2.5 V             :         : 2         : N              
+O4_real[1]                   : R5        : output : 2.5 V             :         : 2         : N              
+I4_real[1]                   : R6        : input  : 2.5 V             :         : 2         : N              
+O1_real[13]                  : R7        : output : 2.5 V             :         : 2         : N              
+nCE                          : R8        :        :                   :         : 1         :                
+GND                          : R9        : gnd    :                   :         :           :                
+VCCINT                       : R10       : power  :                   : 1.2V    :           :                
+GND                          : R11       : gnd    :                   :         :           :                
+VCCINT                       : R12       : power  :                   : 1.2V    :           :                
+GND                          : R13       : gnd    :                   :         :           :                
+VCCINT                       : R14       : power  :                   : 1.2V    :           :                
+GND                          : R15       : gnd    :                   :         :           :                
+VCCINT                       : R16       : power  :                   : 1.2V    :           :                
+GND                          : R17       : gnd    :                   :         :           :                
+VCCINT                       : R18       : power  :                   : 1.2V    :           :                
+GND                          : R19       : gnd    :                   :         :           :                
+VCCINT                       : R20       : power  :                   : 1.2V    :           :                
+O6_imag[3]                   : R21       : output : 2.5 V             :         : 5         : N              
+O4_real[11]                  : R22       : output : 2.5 V             :         : 5         : N              
+O0_real[8]                   : R23       : output : 2.5 V             :         : 5         : N              
+I1_real[14]                  : R24       : input  : 2.5 V             :         : 5         : N              
+I5_imag[12]                  : R25       : input  : 2.5 V             :         : 5         : N              
+O6_real[10]                  : R26       : output : 2.5 V             :         : 5         : N              
+I7_real[7]                   : R27       : input  : 2.5 V             :         : 5         : N              
+O0_imag[13]                  : R28       : output : 2.5 V             :         : 5         : N              
+VCCIO2                       : T1        : power  :                   : 2.5V    : 2         :                
+GND                          : T2        : gnd    :                   :         :           :                
+I1_real[12]                  : T3        : input  : 2.5 V             :         : 2         : N              
+I1_real[3]                   : T4        : input  : 2.5 V             :         : 2         : N              
+VCCIO2                       : T5        : power  :                   : 2.5V    : 2         :                
+GND                          : T6        : gnd    :                   :         :           :                
+O0_real[7]                   : T7        : output : 2.5 V             :         : 2         : N              
+O4_real[8]                   : T8        : output : 2.5 V             :         : 2         : N              
+VCCINT                       : T9        : power  :                   : 1.2V    :           :                
+GND                          : T10       : gnd    :                   :         :           :                
+VCCINT                       : T11       : power  :                   : 1.2V    :           :                
+GND                          : T12       : gnd    :                   :         :           :                
+VCCINT                       : T13       : power  :                   : 1.2V    :           :                
+GND                          : T14       : gnd    :                   :         :           :                
+VCCINT                       : T15       : power  :                   : 1.2V    :           :                
+GND                          : T16       : gnd    :                   :         :           :                
+VCCINT                       : T17       : power  :                   : 1.2V    :           :                
+GND                          : T18       : gnd    :                   :         :           :                
+VCCINT                       : T19       : power  :                   : 1.2V    :           :                
+GND                          : T20       : gnd    :                   :         :           :                
+O7_imag[1]                   : T21       : output : 2.5 V             :         : 5         : N              
+I0_imag[5]                   : T22       : input  : 2.5 V             :         : 5         : N              
+GND                          : T23       : gnd    :                   :         :           :                
+VCCIO5                       : T24       : power  :                   : 2.5V    : 5         :                
+I2_imag[11]                  : T25       : input  : 2.5 V             :         : 5         : N              
+O0_real[2]                   : T26       : output : 2.5 V             :         : 5         : N              
+GND                          : T27       : gnd    :                   :         :           :                
+VCCIO5                       : T28       : power  :                   : 2.5V    : 5         :                
+I7_real[0]                   : U1        : input  : 2.5 V             :         : 2         : N              
+I5_real[12]                  : U2        : input  : 2.5 V             :         : 2         : N              
+I3_real[13]                  : U3        : input  : 2.5 V             :         : 2         : N              
+I3_real[8]                   : U4        : input  : 2.5 V             :         : 2         : N              
+I3_real[4]                   : U5        : input  : 2.5 V             :         : 2         : N              
+I2_real[9]                   : U6        : input  : 2.5 V             :         : 2         : N              
+O4_real[10]                  : U7        : output : 2.5 V             :         : 2         : N              
+O4_real[3]                   : U8        : output : 2.5 V             :         : 2         : N              
+GND                          : U9        : gnd    :                   :         :           :                
+VCCINT                       : U10       : power  :                   : 1.2V    :           :                
+GND                          : U11       : gnd    :                   :         :           :                
+VCCINT                       : U12       : power  :                   : 1.2V    :           :                
+GND                          : U13       : gnd    :                   :         :           :                
+VCCINT                       : U14       : power  :                   : 1.2V    :           :                
+GND                          : U15       : gnd    :                   :         :           :                
+VCCINT                       : U16       : power  :                   : 1.2V    :           :                
+GND                          : U17       : gnd    :                   :         :           :                
+VCCINT                       : U18       : power  :                   : 1.2V    :           :                
+GND                          : U19       : gnd    :                   :         :           :                
+VCCINT                       : U20       : power  :                   : 1.2V    :           :                
+O2_real[15]                  : U21       : output : 2.5 V             :         : 5         : N              
+O2_imag[9]                   : U22       : output : 2.5 V             :         : 5         : N              
+O0_imag[15]                  : U23       : output : 2.5 V             :         : 5         : N              
+O1_imag[1]                   : U24       : output : 2.5 V             :         : 5         : N              
+I2_imag[10]                  : U25       : input  : 2.5 V             :         : 5         : N              
+I0_imag[6]                   : U26       : input  : 2.5 V             :         : 5         : N              
+O6_imag[7]                   : U27       : output : 2.5 V             :         : 5         : N              
+O6_imag[2]                   : U28       : output : 2.5 V             :         : 5         : N              
+O0_real[5]                   : V1        : output : 2.5 V             :         : 2         : N              
+O0_real[12]                  : V2        : output : 2.5 V             :         : 2         : N              
+I7_real[2]                   : V3        : input  : 2.5 V             :         : 2         : N              
+I3_real[0]                   : V4        : input  : 2.5 V             :         : 2         : N              
+I5_real[11]                  : V5        : input  : 2.5 V             :         : 2         : N              
+O4_real[2]                   : V6        : output : 2.5 V             :         : 2         : N              
+I7_real[12]                  : V7        : input  : 2.5 V             :         : 2         : N              
+O1_imag[0]                   : V8        : output : 2.5 V             :         : 2         : N              
+VCCINT                       : V9        : power  :                   : 1.2V    :           :                
+GND                          : V10       : gnd    :                   :         :           :                
+VCCINT                       : V11       : power  :                   : 1.2V    :           :                
+GND                          : V12       : gnd    :                   :         :           :                
+VCCINT                       : V13       : power  :                   : 1.2V    :           :                
+GND                          : V14       : gnd    :                   :         :           :                
+VCCINT                       : V15       : power  :                   : 1.2V    :           :                
+GND                          : V16       : gnd    :                   :         :           :                
+VCCINT                       : V17       : power  :                   : 1.2V    :           :                
+GND                          : V18       : gnd    :                   :         :           :                
+VCCINT                       : V19       : power  :                   : 1.2V    :           :                
+GND                          : V20       : gnd    :                   :         :           :                
+I1_imag[0]                   : V21       : input  : 2.5 V             :         : 5         : N              
+I5_imag[15]                  : V22       : input  : 2.5 V             :         : 5         : N              
+I3_imag[15]                  : V23       : input  : 2.5 V             :         : 5         : N              
+I7_real[9]                   : V24       : input  : 2.5 V             :         : 5         : N              
+O0_imag[1]                   : V25       : output : 2.5 V             :         : 5         : N              
+O6_real[7]                   : V26       : output : 2.5 V             :         : 5         : N              
+I6_imag[6]                   : V27       : input  : 2.5 V             :         : 5         : N              
+I6_imag[15]                  : V28       : input  : 2.5 V             :         : 5         : N              
+O1_real[11]                  : W1        : output : 2.5 V             :         : 2         : N              
+I3_real[7]                   : W2        : input  : 2.5 V             :         : 2         : N              
+I5_real[6]                   : W3        : input  : 2.5 V             :         : 2         : N              
+I2_real[12]                  : W4        : input  : 2.5 V             :         : 2         : N              
+VCCIO2                       : W5        : power  :                   : 2.5V    : 2         :                
+GND                          : W6        : gnd    :                   :         :           :                
+I2_real[14]                  : W7        : input  : 2.5 V             :         : 2         : N              
+I6_real[14]                  : W8        : input  : 2.5 V             :         : 2         : N              
+GND                          : W9        : gnd    :                   :         :           :                
+VCCINT                       : W10       : power  :                   : 1.2V    :           :                
+GND                          : W11       : gnd    :                   :         :           :                
+VCCINT                       : W12       : power  :                   : 1.2V    :           :                
+GND                          : W13       : gnd    :                   :         :           :                
+VCCINT                       : W14       : power  :                   : 1.2V    :           :                
+GND                          : W15       : gnd    :                   :         :           :                
+VCCINT                       : W16       : power  :                   : 1.2V    :           :                
+GND                          : W17       : gnd    :                   :         :           :                
+VCCINT                       : W18       : power  :                   : 1.2V    :           :                
+GND                          : W19       : gnd    :                   :         :           :                
+VCCINT                       : W20       : power  :                   : 1.2V    :           :                
+I2_imag[2]                   : W21       : input  : 2.5 V             :         : 5         : N              
+I5_imag[1]                   : W22       : input  : 2.5 V             :         : 5         : N              
+GND                          : W23       : gnd    :                   :         :           :                
+VCCIO5                       : W24       : power  :                   : 2.5V    : 5         :                
+I6_imag[4]                   : W25       : input  : 2.5 V             :         : 5         : N              
+I4_imag[11]                  : W26       : input  : 2.5 V             :         : 5         : N              
+I2_imag[14]                  : W27       : input  : 2.5 V             :         : 5         : N              
+I1_imag[5]                   : W28       : input  : 2.5 V             :         : 5         : N              
+EN                           : Y1        : input  : 2.5 V             :         : 2         : N              
+INV                          : Y2        : input  : 2.5 V             :         : 2         : N              
+O0_real[1]                   : Y3        : output : 2.5 V             :         : 2         : N              
+I4_real[6]                   : Y4        : input  : 2.5 V             :         : 2         : N              
+O0_real[3]                   : Y5        : output : 2.5 V             :         : 2         : N              
+O6_imag[8]                   : Y6        : output : 2.5 V             :         : 2         : N              
+O0_real[0]                   : Y7        : output : 2.5 V             :         : 2         : N              
+VCCA1                        : Y8        : power  :                   : 2.5V    :           :                
+VCCD_PLL1                    : Y9        : power  :                   : 1.2V    :           :                
+O0_real[10]                  : Y10       : output : 2.5 V             :         : 3         : N              
+GND                          : Y11       : gnd    :                   :         :           :                
+O1_real[9]                   : Y12       : output : 2.5 V             :         : 3         : N              
+O1_imag[11]                  : Y13       : output : 2.5 V             :         : 3         : N              
+O6_real[8]                   : Y14       : output : 2.5 V             :         : 3         : N              
+O6_imag[14]                  : Y15       : output : 2.5 V             :         : 3         : N              
+I5_imag[14]                  : Y16       : input  : 2.5 V             :         : 4         : N              
+I2_imag[6]                   : Y17       : input  : 2.5 V             :         : 4         : N              
+GND                          : Y18       : gnd    :                   :         :           :                
+O7_imag[3]                   : Y19       : output : 2.5 V             :         : 4         : N              
+VCCD_PLL4                    : Y20       : power  :                   : 1.2V    :           :                
+VCCA4                        : Y21       : power  :                   : 2.5V    :           :                
+I6_imag[9]                   : Y22       : input  : 2.5 V             :         : 5         : N              
+I7_imag[11]                  : Y23       : input  : 2.5 V             :         : 5         : N              
+O4_real[0]                   : Y24       : output : 2.5 V             :         : 5         : N              
+O2_imag[0]                   : Y25       : output : 2.5 V             :         : 5         : N              
+I3_imag[13]                  : Y26       : input  : 2.5 V             :         : 5         : N              
+GND+                         : Y27       :        :                   :         : 5         :                
+GND+                         : Y28       :        :                   :         : 5         :                
